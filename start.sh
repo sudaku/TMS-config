@@ -1,2 +1,0 @@
-#!/bin/bash
-java -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx3000m -jar forge-1.12.2-14.23.5.2838-universal.jar net.minecraft.launchwrapper.Launch nogui -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true --tweakClass net.minecraftforge.fml.common.launcher.FMLServerTweaker
